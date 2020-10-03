@@ -84,6 +84,7 @@ main {
 .title h1 {
   margin: 0;
   padding-top: 100px;
+  background-color: #B8FDFF;
 }
 .title i {
   position: absolute;
