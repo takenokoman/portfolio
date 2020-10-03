@@ -84,7 +84,6 @@ main {
 .title h1 {
   margin: 0;
   padding-top: 100px;
-  filter: drop-shadow(0 0 5px rgb(184,253,255));
 }
 .title i {
   position: absolute;
