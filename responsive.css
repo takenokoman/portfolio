@@ -1,0 +1,43 @@
+/*スマホ横*/
+@media screen and (min-width: 481px) {
+  .title {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .skill-content li {
+    font-size: 20px;
+  }
+  .copyright p{
+    font-size: 20px;
+  }
+}
+/*タブレット,pc*/
+@media screen and (min-width: 769px) {
+  .title {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .skill-content li {
+    font-size: 40px;
+  }
+  .copyright p{
+    font-size: 30px;
+  }
+}
+/*pc*/
