@@ -1,0 +1,148 @@
+/*共通*/
+@font-face {
+	font-family: 'Myfont';
+	src: url(PTS55E.ttf);
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: 'Myfont';
+  color: rgb(100, 100, 100);
+  background: repeating-linear-gradient(90deg, rgb(250, 250, 250) 0%, rgb(250, 250, 250) 10%, white 0%, white 50%) 0 / 50px 50px;
+}
+a {
+  text-decoration: none;
+}
+i {
+  filter: drop-shadow(0 0 5px white);
+}
+/*header*/
+/*nav*/
+nav {
+  z-index: 2;
+  position: fixed;
+	top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-wrap: nowrap;
+  box-shadow: 0 -1px 5px;
+
+}
+.btn-wrap {
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.btn i {
+  color: white;
+}
+.gnav {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.gnav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+.gnav li {
+  flex-grow: 1;
+  list-style: none;
+  text-align: center;
+}
+.gnav a {
+  color: black;
+  font-weight: bold;
+}
+.gnav li :hover {
+  filter: drop-shadow(1px 1px 1px black);
+  transition: filter 0.2s;
+}
+/*main*/
+main {
+  height: 100%;
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+/*title*/
+.title {
+  height: 100%;
+  font-size: 20px;
+}
+.title h1 {
+  margin: 0;
+  padding-top: 100px;
+}
+.title i {
+  position: absolute;
+  bottom: 50px;
+  font-size: 50px;
+  color: rgb(100, 100, 100);
+}
+.ar-down {
+  width: 100%;
+  text-align: center;
+}
+/*section*/
+article {
+
+}
+article h2 {
+  background-color: rgb(200, 200, 200);
+  box-shadow: 0 0 5px rgb(100, 100, 100);
+}
+article p {
+  margin: 0 5%;
+  text-align: center;
+}
+.profile h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.profile p {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.work {
+  height: 500px;
+}
+.skill-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-content div {
+  list-style: none;
+  flex-grow: 1;
+  padding-left: 50px;
+  box-sizing: border-box;
+  width: 50%;
+}
+.lang-li li {
+  list-style: disc;
+}
+.icon {
+  height: 100px;
+}
+/*footer*/
+footer {
+  width: 100%;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+}
