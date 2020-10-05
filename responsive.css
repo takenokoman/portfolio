@@ -1,5 +1,5 @@
 /*スマホ横*/
-@media screen and (min-width: 481px) {
+/*@media screen and (min-width: 481px) {
   .title {
     font-size: 30px;
   }
@@ -18,7 +18,7 @@
   .copyright p{
     font-size: 20px;
   }
-}
+}*/
 /*タブレット,pc*/
 @media screen and (min-width: 769px) {
   .title {
