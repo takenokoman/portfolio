@@ -9,18 +9,32 @@
   h3 {
     font-size: 20px;
   }
+
   p {
     font-size: 20px;
   }
   .skill-content li {
     font-size: 20px;
   }
+  .skill-content div {
+    width: 40%;
+  }
   .copyright p {
     font-size: 20px;
   }
-  .gnav a {
+  .gnav li {
     font-size: 20px;
-    padding: 15px;
+  }
+  nav {
+    height: 80px;
+  }
+
+  .btn {
+    width: 80px;
+    height: 80px;
+  }
+  .prof-icon {
+    width: 200px;
   }
 }
 /*タブレット,pc*/
@@ -28,6 +42,7 @@
   .title {
     font-size: 50px;
   }
+
   h2 {
     font-size: 50px;
   }
@@ -40,12 +55,17 @@
   .skill-content li {
     font-size: 40px;
   }
+  .skill-content div {
+    width: 40%;
+  }
   .copyright p{
     font-size: 30px;
   }
-  .gnav a {
+  .gnav li {
     font-size: 30px;
-    padding: 25px;
+  }
+  .prof-icon {
+    width: 300px;
   }
 }
 /*pc*/
