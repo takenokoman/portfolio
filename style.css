@@ -161,6 +161,9 @@ h3 {
 .icon {
   height: 100px;
 }
+.contact a{
+  fontsize: 30px;
+}
 /*footer*/
 footer {
 	position: fixed;
