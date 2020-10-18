@@ -162,7 +162,8 @@ h3 {
   height: 100px;
 }
 .contact a{
-  fontsize: 30px;
+	text-alighn: center;
+	fontsize: 30px;
 }
 /*footer*/
 footer {
